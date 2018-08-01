@@ -29,4 +29,4 @@ Java home: /usr/lib/jvm/java-8-openjdk-amd64/jre
 Default locale: en, platform encoding: UTF-8
 OS name: "linux", version: "4.4.0-105-generic", arch: "amd64", family: "unix"
 ```
-![Image text]（https://github.com/d5ilu/uavgoods/blob/master/%E7%BB%93%E6%9E%84%E5%9B%BE.png）
+![Image text](https://github.com/d5ilu/uavgoods/blob/master/%E7%BB%93%E6%9E%84%E5%9B%BE.png)
