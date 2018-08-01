@@ -29,9 +29,11 @@ Java version: 1.8.0_162, vendor: Oracle Corporation
 Java home: /usr/lib/jvm/java-8-openjdk-amd64/jre
 Default locale: en, platform encoding: UTF-8
 OS name: "linux", version: "4.4.0-105-generic", arch: "amd64", family: "unix"
--------------------------------------------------------------分割线-----------------------------------------------------------
 ```
+-------------------------------------------------------------分割线-----------------------------------------------------------
+
 ![Image text](https://github.com/d5ilu/uavgoods/blob/master/%E7%BB%93%E6%9E%84%E5%9B%BE.png)
+
 ### 工程结构如图所示
 
 #### 其中，无人机集合包括所有无人机以及无人机的状态信息，如位置、货物、任务、航线等；
@@ -41,4 +43,4 @@ OS name: "linux", version: "4.4.0-105-generic", arch: "amd64", family: "unix"
 #### 航线规划根据任务分配的结果基于路线规划算法进行航迹的生成；
 #### 冲突消解根据当前时刻所有无人机位置和下一个时刻位置对碰撞进行调整，策略有停等、爬升等；
 #### io模块负责与裁判服务器的交互，采用socket方式接受和发送无人机信息
-```
+
